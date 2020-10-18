@@ -1,0 +1,152 @@
+body {
+  color: #40514E;
+  margin: auto;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 2.5rem;
+  margin: 0 auto 10px auto;
+  font-weight: normal;
+}
+
+h3 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+}
+
+p {
+  line-height: 2;
+  color: #DCDCDC;
+}
+
+hr {
+  border: dotted #DCDCDC 6px;
+  border-bottom: none;
+  width: 80%;
+  margin: 50px auto 50px auto;
+}
+
+a {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  margin: 50px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #DCDCDC;
+}
+
+/*############################################################################*/
+
+.top-container {
+  background-color: black;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+
+.middle-container {
+  background-color: black;
+  margin: 0;
+  display: inline-block;
+}
+
+.bottom-container {
+  background-color: black;
+  padding-top: 50px;
+}
+
+.top-gbs {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  right: 100px;
+  top: 100px;
+}
+
+.bottom-gbs {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 60%;
+  margin: 40px auto 0 auto;
+  color: #DCDCDC;
+}
+
+.right-row {
+  width: 35%;
+  margin: auto;
+  text-align: right;
+  display: inline-block;
+}
+
+.left-row {
+  width: 35%;
+  margin: auto;
+  text-align: left;
+  display: inline-block;
+}
+
+.right-img {
+  width: 50%;
+  margin-left: 30px;
+}
+
+.left-img {
+  width: 50%;
+  margin-right: 30px;
+}
+
+.align-right-title {
+  position: relative;
+  left: 200px;
+}
+
+.align-left-title {
+  position: relative;
+  right: 200px;
+}
+
+.align-right-text {
+  position: relative;
+  left: 200px;
+  display: inline-block;
+  width: 75%;
+}
+
+.align-left-text {
+  position: relative;
+  right: 200px;
+  display: inline-block;
+  width: 75%;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+  display: block;
+  margin: 0;
+}
